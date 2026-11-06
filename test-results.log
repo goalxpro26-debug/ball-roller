@@ -1,0 +1,39 @@
+PASS  loads, hook present, menu screen  — {"screen":"menu","level":1,"lives":3,"score":0,"coins":1292,"coinsLevel":0,"coinsTotal":25,"ball":{"x":120,"y":520,"vx":0,"vy":0,"onGround":false},"finishX":2421.161728006881,"worldW":2581.161728006881,"camX":0,"groundAhead55":true,"groundAhead90":true,"riseAhead":0,"spikeAhead":false,"moverAhead":false,"spikeDist":null,"moverDist":null,"needJumpRise":26,"muted":false,"paused":false,"coyote":false,"maxUnlocked":20,"jumps":0,"deaths":0,"theme":"Dawn Meadow","skin":"Pip"}
+PASS  how-to overlay opens  — howto visible=true
+PASS  start -> playing level 1, 3 lives  — {"screen":"playing","level":1,"lives":3,"score":0,"coins":1292,"coinsLevel":0,"coinsTotal":25,"ball":{"x":120,"y":546,"vx":0,"vy":0,"onGround":true},"finishX":2421.161728006881,"worldW":2581.161728006881,"camX":0,"groundAhead55":true,"groundAhead90":true,"riseAhead":0,"spikeAhead":false,"moverAhead":false,"spikeDist":null,"moverDist":null,"needJumpRise":0,"muted":false,"paused":false,"coyote":true,"maxUnlocked":20,"jumps":0,"deaths":0,"theme":"Dawn Meadow","skin":"Pip"}
+PASS  real keyboard Space makes Pip jump  — jumps 0 -> 1
+PASS  falling in a gap costs 1 life and respawns  — {"screen":"playing","level":1,"lives":2,"score":0,"coins":1292,"coinsLevel":0,"coinsTotal":25,"ball":{"x":145,"y":546,"vx":229,"vy":0,"onGround":true},"finishX":2421.161728006881,"worldW":2581.161728006881,"camX":0,"groundAhead55":true,"groundAhead90":true,"riseAhead":0,"spikeAhead":false,"moverAhead":false,"spikeDist":null,"moverDist":null,"needJumpRise":0,"muted":false,"paused":false,"coyote":true,"maxUnlocked":20,"jumps":1,"deaths":1,"theme":"Dawn Meadow","skin":"Pip"}
+PASS  autopilot clears level 1 -> clear screen  — {"screen":"clear","level":1,"lives":1,"score":2711,"coins":1312,"coinsLevel":20,"coinsTotal":25,"ball":{"x":2424,"y":477,"vx":300,"vy":0,"onGround":true},"finishX":2421.161728006881,"worldW":2581.161728006881,"camX":2101,"groundAhead55":true,"groundAhead90":false,"riseAhead":null,"spikeAhead":false,"moverAhead":false,"spikeDist":null,"moverDist":null,"needJumpRise":0,"muted":false,"paused":false,"coyote":true,"maxUnlocked":20,"jumps":14,"deaths":2,"theme":"Dawn Meadow","skin":"Pip"}
+PASS  next -> playing level 2, score kept  — {"screen":"playing","level":2,"lives":3,"score":2711,"coins":1312,"coinsLevel":0,"coinsTotal":25,"ball":{"x":120,"y":546,"vx":0,"vy":0,"onGround":true},"finishX":2406.4031716788186,"worldW":2566.4031716788186,"camX":0,"groundAhead55":true,"groundAhead90":true,"riseAhead":0,"spikeAhead":false,"moverAhead":false,"spikeDist":null,"moverDist":null,"needJumpRise":0,"muted":false,"paused":false,"coyote":true,"maxUnlocked":20,"jumps":14,"deaths":2,"theme":"Dawn Meadow","skin":"Pip"}
+PASS  pause -> paused screen  — {"screen":"paused","level":2,"lives":3,"score":2711,"coins":1312,"coinsLevel":0,"coinsTotal":25,"ball":{"x":120,"y":546,"vx":0,"vy":0,"onGround":true},"finishX":2406.4031716788186,"worldW":2566.4031716788186,"camX":0,"groundAhead55":true,"groundAhead90":true,"riseAhead":0,"spikeAhead":false,"moverAhead":false,"spikeDist":null,"moverDist":null,"needJumpRise":0,"muted":false,"paused":true,"coyote":true,"maxUnlocked":20,"jumps":14,"deaths":2,"theme":"Dawn Meadow","skin":"Pip"}
+PASS  resume -> playing  — {"screen":"playing","level":2,"lives":3,"score":2711,"coins":1312,"coinsLevel":0,"coinsTotal":25,"ball":{"x":120,"y":546,"vx":0,"vy":0,"onGround":true},"finishX":2406.4031716788186,"worldW":2566.4031716788186,"camX":0,"groundAhead55":true,"groundAhead90":true,"riseAhead":0,"spikeAhead":false,"moverAhead":false,"spikeDist":null,"moverDist":null,"needJumpRise":0,"muted":false,"paused":false,"coyote":true,"maxUnlocked":20,"jumps":14,"deaths":2,"theme":"Dawn Meadow","skin":"Pip"}
+PASS  mute toggles on  — {"screen":"playing","level":2,"lives":3,"score":2711,"coins":1312,"coinsLevel":0,"coinsTotal":25,"ball":{"x":120,"y":546,"vx":0,"vy":0,"onGround":true},"finishX":2406.4031716788186,"worldW":2566.4031716788186,"camX":0,"groundAhead55":true,"groundAhead90":true,"riseAhead":0,"spikeAhead":false,"moverAhead":false,"spikeDist":null,"moverDist":null,"needJumpRise":0,"muted":true,"paused":false,"coyote":true,"maxUnlocked":20,"jumps":14,"deaths":2,"theme":"Dawn Meadow","skin":"Pip"}
+PASS  mute toggles off  — {"screen":"playing","level":2,"lives":3,"score":2711,"coins":1312,"coinsLevel":0,"coinsTotal":25,"ball":{"x":120,"y":546,"vx":0,"vy":0,"onGround":true},"finishX":2406.4031716788186,"worldW":2566.4031716788186,"camX":0,"groundAhead55":true,"groundAhead90":true,"riseAhead":0,"spikeAhead":false,"moverAhead":false,"spikeDist":null,"moverDist":null,"needJumpRise":0,"muted":false,"paused":false,"coyote":true,"maxUnlocked":20,"jumps":14,"deaths":2,"theme":"Dawn Meadow","skin":"Pip"}
+PASS  pause menu -> menu screen  — {"screen":"menu","level":2,"lives":3,"score":2711,"coins":1312,"coinsLevel":0,"coinsTotal":25,"ball":{"x":120,"y":546,"vx":0,"vy":0,"onGround":true},"finishX":2406.4031716788186,"worldW":2566.4031716788186,"camX":0,"groundAhead55":true,"groundAhead90":true,"riseAhead":0,"spikeAhead":false,"moverAhead":false,"spikeDist":null,"moverDist":null,"needJumpRise":0,"muted":false,"paused":true,"coyote":true,"maxUnlocked":20,"jumps":14,"deaths":2,"theme":"Dawn Meadow","skin":"Pip"}
+PASS  level select -> level 1 playing  — {"screen":"playing","level":1,"lives":3,"score":2711,"coins":1312,"coinsLevel":0,"coinsTotal":25,"ball":{"x":120,"y":546,"vx":0,"vy":0,"onGround":true},"finishX":2421.161728006881,"worldW":2581.161728006881,"camX":0,"groundAhead55":true,"groundAhead90":true,"riseAhead":0,"spikeAhead":false,"moverAhead":false,"spikeDist":null,"moverDist":null,"needJumpRise":0,"muted":false,"paused":false,"coyote":true,"maxUnlocked":20,"jumps":14,"deaths":2,"theme":"Dawn Meadow","skin":"Pip"}
+  level 1 -> clear (clears so far 1)
+  level 2 -> clear (clears so far 2)
+  level 3 -> clear (clears so far 3)
+  level 4 -> clear (clears so far 4)
+  level 5 -> clear (clears so far 5)
+  level 6 -> clear (clears so far 6)
+  level 7 -> clear (clears so far 7)
+  level 8 -> clear (clears so far 8)
+  level 9 -> clear (clears so far 9)
+  level 10 -> clear (clears so far 10)
+  level 11 -> clear (clears so far 11)
+  level 12 -> clear (clears so far 12)
+  level 13 -> clear (clears so far 13)
+  level 14 -> clear (clears so far 14)
+  level 15 -> over (clears so far 14)
+  level 15 -> clear (clears so far 15)
+  level 16 -> clear (clears so far 16)
+  level 17 -> clear (clears so far 17)
+  level 18 -> clear (clears so far 18)
+  level 19 -> clear (clears so far 19)
+  level 20 -> win (clears so far 19)
+PASS  full playthrough reaches WIN after 20 levels (clears=19)  — {"screen":"win","level":20,"lives":2,"score":68604,"coins":1825,"coinsLevel":33,"coinsTotal":53,"ball":{"x":5340,"y":422,"vx":300,"vy":0,"onGround":true},"finishX":5335.744814763777,"worldW":5495.744814763777,"camX":5016,"groundAhead55":true,"groundAhead90":false,"riseAhead":null,"spikeAhead":false,"moverAhead":false,"spikeDist":null,"moverDist":null,"needJumpRise":0,"muted":false,"paused":false,"coyote":true,"maxUnlocked":20,"jumps":328,"deaths":11,"theme":"Frost Ridge","skin":"Pip"}
+PASS  play again -> level 1 playing, score reset  — {"screen":"playing","level":1,"lives":3,"score":0,"coins":1825,"coinsLevel":0,"coinsTotal":25,"ball":{"x":120,"y":546,"vx":0,"vy":0,"onGround":true},"finishX":2421.161728006881,"worldW":2581.161728006881,"camX":0,"groundAhead55":true,"groundAhead90":true,"riseAhead":0,"spikeAhead":false,"moverAhead":false,"spikeDist":null,"moverDist":null,"needJumpRise":0,"muted":false,"paused":false,"coyote":true,"maxUnlocked":20,"jumps":328,"deaths":11,"theme":"Dawn Meadow","skin":"Pip"}
+PASS  no page/console errors
+
+16/16 checks passed; final win score was 68604
